@@ -25,7 +25,7 @@ jobs:
       - name: Build with Gradle
         run: ./gradlew build
 
-      - name: Slack Notification
+      - name: Slack Notifications
         uses: craftech-io/slack-action@v1
         with:
           slack_webbook_url: "https://hooks.slack.com/services/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"
